@@ -21,6 +21,6 @@ function presentFullScreenViewControllerWithTemplate(self,template)
 template = 5
 self:ORIGpresentFullScreenViewControllerWithTemplate(template)
 end
-function tapEvent(self,sender)
-self:clickWithView(self)
-end
+--function tapEvent(self,sender)
+--self:clickWithView(self)
+--end
